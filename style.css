@@ -223,3 +223,7 @@ footer .tm { margin: 14px 0 0; font-size: 12.5px; }
   .fan .k { animation: none; }
   .btn { transition: none; }
 }
+
+/* The web daily link under the hero button. */
+.try { margin: 12px 0 0; font-weight: 600; }
+.try a { color: inherit; text-underline-offset: 3px; }

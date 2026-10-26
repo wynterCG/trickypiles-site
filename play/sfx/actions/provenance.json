@@ -1,0 +1,126 @@
+{
+  "direction": "V2 new-action additions only; no existing audio replacement",
+  "masterGainDB": 4.54,
+  "encoding": "libmp3lame quality 2; 48000 Hz stereo",
+  "sources": {
+    "casino-pickup": {
+      "path": "E:\\game_assets\\sound\\Sonniss.com-GDC2026-GameAudioBundle\\344 Audio - Casino Cards Vol. 1\\GAMECas_Pick Up Multiple Cards At Once 5_344 Audio_Casino Cards Vol 1.wav",
+      "sha256": "886284ed373d5795bdca521fc1fe30ceaf5155af05ce9c53263594593d92c510",
+      "sourceDescription": "Local owner-provided sample library; source preserved, no independent license ownership claim."
+    },
+    "quute-click": {
+      "path": "E:\\game_assets\\sound\\Quute UI - User Interface Sound Pack\\1. WAV\\1. Individual Files\\2. Click Clean Short\\UIClick_Button Click Clean Short-001_OS_Quute UI.wav",
+      "sha256": "743ba4f6c39fa301323630628e6a85657a94f0d46984d19033b7fb479799a2fa",
+      "sourceDescription": "Local owner-provided sample library; source preserved, no independent license ownership claim."
+    },
+    "quute-swipe": {
+      "path": "E:\\game_assets\\sound\\Quute UI - User Interface Sound Pack\\1. WAV\\1. Individual Files\\11. Swipe Slide\\UIMvmt_Swipe Slide Swish-001_OS_Quute UI.wav",
+      "sha256": "112aff4eb9432a467279d9717019c056cab1a349e62a26ec216ccc300f73e55a",
+      "sourceDescription": "Local owner-provided sample library; source preserved, no independent license ownership claim."
+    },
+    "quute-crystal": {
+      "path": "E:\\game_assets\\sound\\Quute UI - User Interface Sound Pack\\1. WAV\\1. Individual Files\\8. Select Magic Crystal\\UIClick_Select Magical Crystal-001_OS_Quute UI.wav",
+      "sha256": "6bd819cd92cbb4bb8be9aa745a38a47ac39c60357a7769dececaf9469046c34e",
+      "sourceDescription": "Local owner-provided sample library; source preserved, no independent license ownership claim."
+    }
+  },
+  "assets": [
+    {
+      "id": "select",
+      "file": "select.mp3",
+      "bytes": 3501,
+      "sha256": "8fcfb7a1531edf1790806f713e319dd2c8bb0636770c56529654af891364bfca",
+      "sourceCueSHA256": "2b0d185c1f38ab0ba66c95171fcc0c4b6048837655c55e026b76912071948e7d",
+      "sourceComponents": ["casino-pickup", "original-damped-body"],
+      "notes": "Real card pickup; dry texture and a small woody grip, not a sine beep.",
+      "durationSeconds": 0.205
+    },
+    {
+      "id": "hand-ready",
+      "file": "hand-ready.mp3",
+      "bytes": 3789,
+      "sha256": "09a6f9e9e1ed0249a9ec55f49280ed61cc846fb8e509692eb88ab82e42cf12ef",
+      "sourceCueSHA256": "fe476247de63cad884266cf35d3e20be447925f3a1455b36f8eb5f74a9bc68d0",
+      "sourceComponents": ["casino-pickup", "original-modal-pluck"],
+      "notes": "One short real-card flutter and soft D5 readiness accent, once on availability transition.",
+      "durationSeconds": 0.235
+    },
+    {
+      "id": "menu",
+      "file": "menu.mp3",
+      "bytes": 3093,
+      "sha256": "5608a6b65d8f6a1eed0c577d11b310156aa1677ac66515cffd62c5a8ad9d8d0c",
+      "sourceCueSHA256": "7a9b5720af11993945b8ebe2dc063a731f68d4ce2013a4671e533ae3569b9380",
+      "sourceComponents": ["quute-swipe", "casino-pickup"],
+      "notes": "Single edited swish with material settle; no continuous whoosh.",
+      "durationSeconds": 0.215
+    },
+    {
+      "id": "tab",
+      "file": "tab.mp3",
+      "bytes": 1989,
+      "sha256": "bc13cfece03506980831d2a1ee4ab897d0e1b368845d29947963dffcc8652a3d",
+      "sourceCueSHA256": "c779addc5686957aeba4110bbe1cb68d481bd5d7304b9d2a6673c827605ab825",
+      "sourceComponents": ["quute-click"],
+      "notes": "Short low-passed designed click; only the accepted tab change, no click+menu stack.",
+      "durationSeconds": 0.105
+    },
+    {
+      "id": "combo3",
+      "file": "combo-3.mp3",
+      "bytes": 5997,
+      "sha256": "52fc3461cc20d0c0820d8d633eb15d6541b48cca79c62e42394ed2dec9834ae3",
+      "sourceCueSHA256": "b432b361103e568ee1d0e30323c3f0b4d4e2b13efc554abdb6a319128b9f11d3",
+      "sourceComponents": [
+        "original-D-major-modal-plucks",
+        "quute-crystal",
+        "original-damped-body"
+      ],
+      "notes": "D-major harmonic family; subtle stereo, mono compatible, bounded tail. Real milestones only; replace previous reward cue.",
+      "durationSeconds": 0.3
+    },
+    {
+      "id": "combo5",
+      "file": "combo-5.mp3",
+      "bytes": 7581,
+      "sha256": "33110d6fa49c6fb46cf17db6793dc078eddd0b7bbf95da27193aa21f0fd62489",
+      "sourceCueSHA256": "44c4b19732cc6c857ec8ce4afd8bc594f2fdb6ac57dba9fccdad309dcf097b6f",
+      "sourceComponents": [
+        "original-D-major-modal-plucks",
+        "quute-crystal",
+        "original-damped-body"
+      ],
+      "notes": "D-major harmonic family; subtle stereo, mono compatible, bounded tail. Real milestones only; replace previous reward cue.",
+      "durationSeconds": 0.43
+    },
+    {
+      "id": "combo8",
+      "file": "combo-8.mp3",
+      "bytes": 11037,
+      "sha256": "c48e887600a59dc5ed36179418598fe4eff67de7609474f165c6e7ef57e4d9cc",
+      "sourceCueSHA256": "e6d1b6e07e836f75ea222c3d721bb716432f3ce18db9abdc442f05299e395060",
+      "sourceComponents": [
+        "original-D-major-modal-plucks",
+        "quute-crystal",
+        "original-damped-body"
+      ],
+      "notes": "D-major harmonic family; subtle stereo, mono compatible, bounded tail. Real milestones only; replace previous reward cue.",
+      "durationSeconds": 0.62
+    },
+    {
+      "id": "new-best",
+      "file": "new-best.mp3",
+      "bytes": 13845,
+      "sha256": "7dba84b2af60421202efc93391cf573a8b843b3692ffd462005a1dc3c8b327f1",
+      "sourceCueSHA256": "9ade51ac288f7436d0d04d70de0485e67f87988417385f12058a008281c965fa",
+      "sourceComponents": [
+        "original-D-major-modal-plucks",
+        "quute-crystal",
+        "original-damped-body"
+      ],
+      "notes": "D-major harmonic family; subtle stereo, mono compatible, bounded tail. Real milestones only; replace previous reward cue.",
+      "durationSeconds": 0.93
+    }
+  ],
+  "supplyLimits": "Local owner-provided libraries. No independent license ownership or redistribution license claim is made; retain original library terms. Owner source files are unchanged. Original modal/mallet layers were procedurally authored for this project."
+}
